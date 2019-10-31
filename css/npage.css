@@ -1,0 +1,48 @@
+body{
+    background:url(../img/office2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+#buttons{
+    width: 100%;
+}
+.box{
+    display: inline-table;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    box-shadow: 1px 1px 3px #111;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 100px;
+}
+.conts{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.app{
+    background: rgb(4, 136, 4);
+}
+.res{
+    background: rgb(226, 167, 4);
+}
+.logout{
+    background: rgb(161, 0, 0);
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
